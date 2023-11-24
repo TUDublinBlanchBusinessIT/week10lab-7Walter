@@ -4,6 +4,7 @@ include("finalStepHeader.html");
 //translate the comments below into PHP code underneath each comment
 
 //start a session
+session_start();
 
 //echo the passenger's firstname from the appropriate session variable
 

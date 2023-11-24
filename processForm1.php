@@ -4,10 +4,8 @@ date_default_timezone_set('Europe/Dublin');
  
 session_start();
 
-echo "Passenger firstname:" .$_SESSION['firstname']."<BR>";
-    
-echo "Passenger surname:" .$_SESSION['surname']."<BR>";  
-
+$_SESSION['firstname'];
+$_SESSION['surname'];  
 
 if(isset($_POST['luggage'])) {
     $_SESSION['luggage'] = 1;
